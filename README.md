@@ -19,4 +19,4 @@ Existem dois videos de saída, o saida_reconhecimento.avi que mostra as áreas q
 ## Pesquisa e método de resolução:
 
 Para a conclusão do desafio foi necessário muita pesquisa, sites como o Stack Overflow, GitHub, Youtube e blogs foram essenciais. De inicio foi necessário procurar as melhores bibliotecas de OCR (Optical Character Recognition), me deparei com muitos textos sobre Tesseract, porém nos projetos observados desta biblioteca eram ultilizadas imagens para reconhecimento de texto e não videos. Continuando na busca de modos para solucionar o problema foi encontrado no GitHub um repositório de reconhecimento de texto em video, este código serviu de modelo e estudo para a criação do projeto.
-Primeiramente foi aplicado alguns códigos da biblioteca NunPy para reconhecer os textos no video, logo foi criado um recorte (cropped) na área que estava o nome identificado e para anonimizar o nome ultilizou se GaussianBlur do OpenCV.
+Primeiramente foi aplicado alguns códigos da biblioteca NunPy para reconhecer os textos no video, logo foi criado um recorte (cropped) na área que estava o nome identificado e para anonimizar o nome ultilizou-se GaussianBlur do OpenCV.
