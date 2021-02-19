@@ -4,11 +4,17 @@
 - Identificar o nome de uma pessoa, e anonimizar. A técnica para anonimização fica por sua conta, podendo ser blur, black-box, ou qualquer outra. Pense em criar algo escalável que funcione com qualquer nome, e em qualquer frame/local do vídeo.
 Registrar todo o texto contido, no vídeo, assim como o tempo que o mesmo se encontra será considerado um plus, porém não obrigatório.
 
-## Tecnologias utilizadas:
+## Tecnologias utilizadas e necessárias para rodar o código:
 
 - Python
 - OpenCV
 - NunPy
+
+## Videos:
+
+- Para ver os videos de saída baixe-os acima no repositório.
+
+Existem dois videos de saída, o saida_reconhecimento.avi que mostra as áreas que o computador reconheceu como texto nos frames, e o saida.avi que é o video final do projeto com a anonimização do nome.
 
 ## Pesquisa e método de resolução:
 
