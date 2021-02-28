@@ -40,7 +40,7 @@ def bboxes(inp):
 
     cropped = cv2.GaussianBlur(cropped, (23, 23), 30)
     result_video[y:y+cropped.shape[0], x:x+cropped.shape[1]] = cropped
-    #result_video[y:y+h, x:x+w = cropped
+    #result_video[y:y+h, x:x+w] = cropped
 
 
     cv2.imshow('Saida', result_video)
