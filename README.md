@@ -16,6 +16,10 @@ Registrar todo o texto contido, no vídeo, assim como o tempo que o mesmo se enc
 
 Existem dois videos de saída, o saida_reconhecimento.avi que mostra as áreas que o computador reconheceu como texto nos frames, e o saida.avi que é o video final do projeto com a anonimização do nome.
 
+## Escolher área de anonimização:
+
+Para escolher o local que quer que seja anonimizado primeiramente tire a linha 29 de comentário e comente a linha 27. Conseguinte, para escolher a área modifique os números da linha 29 ([x, y, w, h] = 334, 0, 100, 20), x representa os pixels na horizontal da esquerda para direita, y representa os pixels na vertical de cima para baixo, w representa a largura em pixels da área que será borrada e h representa a altura em pixels da área que será borrada.
+
 ## Pesquisa e método de resolução:
 
 Para a conclusão do desafio foi necessário muita pesquisa, sites como o Stack Overflow, GitHub, Youtube e blogs foram essenciais. De inicio foi necessário procurar as melhores bibliotecas de OCR (Optical Character Recognition), me deparei com muitos textos sobre Tesseract, porém nos projetos observados desta biblioteca eram ultilizadas imagens para reconhecimento de texto e não videos. Continuando na busca de modos para solucionar o problema foi encontrado no GitHub um repositório de reconhecimento de texto em video, este código serviu de modelo e estudo para a criação do projeto.
